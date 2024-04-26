@@ -11,37 +11,44 @@ To be developped.
 > A faire.
 
 
-
-
 ## Installing on your cluster
 ### Prerequisite
 - An Ubuntu Linux server (tested with Ubuntu 22.04)
 - root access
 - installed git
 
-### Kind cluster Installation
+### Get repository
 ```bash
 # Get priviledged access
 su -
-cd /tmp
+```
+```bash
 # Get repository
+cd /tmp
 git clone https://github.com/mariefdu45/kind.git
 ```
-- Customizing variables.env for customization.
+### Customizing variables
+- Modify variables.env for your convenience.
   
 ```bash
 
+### kind cluster installation
 # using installation script
 source main.sh
 ```
 
-### Components checking
+## Checking your cluster
+### Individual Components checking
 ```bash
 helm version
+docker version
 docker ps
 kubectl version
 kind version
+### Cluster Components checking
 kind get clusters
+kubectl get nodes
+k get nodes
 kubectl get pods -n kube-system 
 ```
 
