@@ -7,8 +7,8 @@ This repository is for installing a kind cluster on a fresh Ubuntu Linux system
 ## Some theory about components
 > Un peu de théorie à propos des composants
 
-To be developped.
-> A faire.
+Kind cluster with 2 nodes (1 master and 1 worker) is installed using Cilium CNI.
+> Le script installe un cluster kubernetes kind avec par défaut un master et un worker. Il installe ensuite le CNI Cilium
 
 
 ## Installing on your cluster
