@@ -1,7 +1,7 @@
 #
 # !/bin/bash
-# CSI Installation – Main Program
-# Version : December 25, 2023
+# kind cluster installation main program
+# Version : April 26, 2024
 # Author : mariefdu45@gmail.com
 #
 source variables.env

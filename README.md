@@ -21,16 +21,18 @@ To be developped.
 
 ### Kind cluster Installation
 ```bash
+# Get priviledged access
+su -
+cd /tmp
 # Get repository
 git clone https://github.com/mariefdu45/kind.git
-cd kind
 ```
 - Customizing variables.env for customization.
   
 ```bash
 
 # using installation script
-./main.sh install
+source main.sh
 ```
 
 ### Components checking
