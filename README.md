@@ -16,7 +16,8 @@ To be developped.
 ## Installing on your cluster
 ### Prerequisite
 - An Ubuntu Linux server (tested with Ubuntu 22.04)
-- Un accès root
+- root access
+- installed git
 
 ### Kind cluster Installation
 ```bash
@@ -24,12 +25,12 @@ To be developped.
 git clone https://github.com/mariefdu45/kind.git
 cd kind
 ```
-- Customizing parametes if needed.
+- Customizing variables.env for customization.
   
 ```bash
 
 # using installation script
-./configuration/main.sh install
+./main.sh install
 ```
 
 ### Components checking
